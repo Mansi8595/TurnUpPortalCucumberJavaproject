@@ -7,12 +7,7 @@ import org.openqa.selenium.WebElement;
 import java.time.Duration;
 
 public class Login {
-    private final By userNameTextboxLocator = By.id("UserName");
-    private final By passwordTextboxLocator = By.id("Password");
-    private final By loginButtonLocator = By.xpath("//*[@id='loginForm']/form/div[3]/input[1]");
-    WebElement usernameTextbox;
-    WebElement passwordTextbox;
-    WebElement loginButton;
+
 
     public void LoginActions(WebDriver driver, String username, String password) {
         driver.manage().window().maximize();
@@ -23,15 +18,15 @@ public class Login {
         driver.navigate().to(baseURL);
 
         //Identify username textbox and enter valid username
-        usernameTextbox = driver.findElement(userNameTextboxLocator);
+        WebElement usernameTextbox = driver.findElement(By.id("UserName"));
         usernameTextbox.sendKeys(username);
 
         //Identify password textbox and enter valid password
-        passwordTextbox = driver.findElement(passwordTextboxLocator);
+        WebElement passwordTextbox = driver.findElement(By.id("Password"));
         passwordTextbox.sendKeys(password);
 
         //Identify login button and click on the button
-        loginButton = driver.findElement(loginButtonLocator);
+        WebElement loginButton = driver.findElement(By.xpath("//*[@id='loginForm']/form/div[3]/input[1]"));
         loginButton.click();
     }
 

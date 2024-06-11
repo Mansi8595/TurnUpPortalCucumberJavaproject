@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0307a727-7132-4b6e-a62b-ca38526d5092" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/EmployeePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/TimeMaterialPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/CommonDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/Waitutils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Homepage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Mansi8595&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mansi8595/TurnUpPortalCucumberJavaproject.git&quot;,
+    &quot;accountId&quot;: &quot;50cb7e57-454f-4aa2-b9dc-12faa439c789&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -41,19 +45,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Scenario: Create time and material record with valid details (1).executor": "Run",
-    "Cucumber Java.Scenario: Create time and material record with valid details.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/parma/OneDrive/Desktop/Mansi-Industryconnect/DemoTurnUpPortal/java Project/TurnUpPortalCucumber/src/test/java/StepDefinations",
-    "onboarding.tips.debug.path": "C:/Users/parma/OneDrive/Desktop/Mansi-Industryconnect/DemoTurnUpPortal/java Project/TurnUpPortalCucumber/src/main/java/org/turnupportal/Main.java",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Scenario: Create time and material record with valid details (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Create time and material record with valid details.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/parma/OneDrive/Desktop/Mansi-Industryconnect/DemoTurnUpPortal/java Project/TurnUpPortalCucumber/src/test/java/StepDefinations&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/parma/OneDrive/Desktop/Mansi-Industryconnect/DemoTurnUpPortal/java Project/TurnUpPortalCucumber/src/main/java/org/turnupportal/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\parma\OneDrive\Desktop\Mansi-Industryconnect\DemoTurnUpPortal\java Project\TurnUpPortalCucumber\src\test\java" />
@@ -123,14 +127,29 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/Pages/TimeMaterialPage.java</url>
-          <line>14</line>
-          <properties class="Pages.TimeMaterialPage" method="CreateTimeRecord">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;Cucumber+&quot;!=null" />
+          <url>file://$PROJECT_DIR$/src/test/java/StepDefinations/TMStepdefs.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;Cucumber+&quot;!=null" />
+          <url>file://$PROJECT_DIR$/src/test/java/StepDefinations/TMStepdefs.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;Cucumber+&quot;!=null" />
+          <url>file://$PROJECT_DIR$/src/test/java/StepDefinations/TMStepdefs.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;Cucumber+&quot;!=null" />
+          <url>file://$PROJECT_DIR$/src/test/java/StepDefinations/TMStepdefs.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
